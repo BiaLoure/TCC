@@ -1,0 +1,73 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Template Latex - Relatorio Tecnico - IFSP - SBV.aux
+Reallocating 'name_of_file' (item size: 1) to 31 items.
+The style file: abntex2-custom/abntex2-alf.bst.bst
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+Reallocating 'name_of_file' (item size: 1) to 12 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Database file #1: abntex2-options.bib
+Database file #2: referencias.bib
+Warning--entry type for "GodotDocs2024" isn't style-file defined
+--line 67 of file referencias.bib
+Warning--entry type for "Smid2017" isn't style-file defined
+--line 95 of file referencias.bib
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-alf.bst versão v<VERSION>           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://www.abntex.net.br/                               |
++---------------------------------------------------------+
+You've used 13 entries,
+            6714 wiz_defined-function locations,
+            1274 strings with 11048 characters,
+and the built_in function-call counts, 8745 in all, are:
+= -- 765
+> -- 202
+< -- 14
++ -- 121
+- -- 65
+* -- 540
+:= -- 1237
+add.period$ -- 39
+call.type$ -- 13
+change.case$ -- 74
+chr.to.int$ -- 21
+cite$ -- 11
+duplicate$ -- 432
+empty$ -- 761
+format.name$ -- 301
+if$ -- 2095
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 217
+newline$ -- 58
+num.names$ -- 55
+pop$ -- 278
+preamble$ -- 1
+purify$ -- 41
+quote$ -- 0
+skip$ -- 557
+stack$ -- 1
+substring$ -- 380
+swap$ -- 196
+text.length$ -- 11
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1
+warning$ -- 0
+while$ -- 82
+width$ -- 0
+write$ -- 175
+(There were 2 warnings)
