@@ -17,10 +17,10 @@ config/icon="res://icon.svg"
 
 [display]
 
-window/size/viewport_width=480
-window/size/viewport_height=270
-window/size/window_width_override=1920
-window/size/window_height_override=1080
+window/size/viewport_width=280
+window/size/viewport_height=151
+window/size/window_width_override=1820
+window/size/window_height_override=980
 window/stretch/mode="viewport"
 
 [input]
@@ -61,7 +61,11 @@ right={
 [layer_names]
 
 2d_physics/layer_1="Player"
-2d_physics/layer_3="Walls"
+2d_physics/layer_5="Walls"
+
+[physics]
+
+2d/physics_engine="GodotPhysics2D"
 
 [rendering]
 

@@ -6,7 +6,8 @@
 [ext_resource type="Script" uid="uid://d4k31mmpcw2fl" path="res://Player/Scripts/state_idle.gd" id="4_gwnis"]
 [ext_resource type="Script" uid="uid://b41q18woknmk3" path="res://Player/Scripts/state_walk.gd" id="5_k53q1"]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_edjgo"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_k53q1"]
+size = Vector2(12, 8)
 
 [sub_resource type="Animation" id="Animation_btcbx"]
 length = 0.001
@@ -177,8 +178,9 @@ collision_mask = 4
 script = ExtResource("1_4ntmi")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-visible = false
-shape = SubResource("CircleShape2D_edjgo")
+position = Vector2(67, -33)
+shape = SubResource("RectangleShape2D_k53q1")
+one_way_collision_margin = 0.0
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(67, -37)
@@ -199,3 +201,6 @@ script = ExtResource("4_gwnis")
 
 [node name="Walk" type="Node" parent="StateMachine"]
 script = ExtResource("5_k53q1")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(68, -37)
