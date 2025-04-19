@@ -57,10 +57,30 @@ Available at:
 {PARLETT, D.~S. \textbf{Card Games: History and Social Aspects}. [S.l.]: Oxford
   University Press, 1990.}
 
+\bibitem[Rabin 2021]{Rabin2021}
+\abntrefinfo{Rabin}{Rabin}{2021}
+{RABIN, S. (Ed.). \textbf{Introduction to Game Development}. 2. ed. Boston, MA:
+  Cengage Learning, 2021.
+ISBN 9781138787087.}
+
+\bibitem[Sparks 2020]{Sparks2020}
+\abntrefinfo{Sparks}{Sparks}{2020}
+{SPARKS, B. \textbf{GameMaker Studio 2: Introduction to Game Design and
+  Programming}. Herndon, VA: Mercury Learning and Information, 2020.
+ISBN 9781683924967.}
+
 \bibitem[Suits 1978]{Suits1978}
 \abntrefinfo{Suits}{Suits}{1978}
 {SUITS, B. \textbf{The Grasshopper: Games, Life, and Utopia}. [S.l.]:
   University of Toronto Press, 1978.}
+
+\bibitem[{YoYo Games} 2023]{GameMakerManual2023}
+\abntrefinfo{{YoYo Games}}{{YoYo Games}}{2023}
+{{YoYo Games}. \textbf{Manual do GameMaker - Introdução ao GameMaker Studio
+  2}. 2023.
+Acesso em: 19 abr. 2025.
+Dispon{\'\i}vel em:
+  \url{https://manual.gamemaker.io/monthly/br/index.htm\#utm\_source=chatgpt.com&t=Introduction\%2FIntroduction\_To\_GameMaker\_Studio\_2.htm}.}
 
 \bibitem[Šmíd 2017]{Smid2017}
 \abntrefinfo{Šmíd}{Šmíd}{2017}

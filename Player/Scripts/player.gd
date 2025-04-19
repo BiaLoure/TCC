@@ -3,11 +3,18 @@ class_name Player extends CharacterBody2D
 var cardinal_direction : Vector2 =  Vector2.DOWN
 var direction: Vector2 = Vector2.ZERO
 
-
-
 @onready var animation_player : AnimationPlayer = $AnimationPlayer
 @onready var sprite : Sprite2D = $Sprite2D
 @onready var state_machine : PlayerStateMachine = $StateMachine
+@onready var machado: State_Machado = $StateMachine/Machado
+
+
+
+
+
+
+
+	
 
 
 # Called when the node enters the scene tree for the first time.
@@ -29,6 +36,16 @@ func _process(delta) :
 	
 	
 	pass
+	
+	#fazer a troca de animação
+	
+	
+
+
+func play_jump_animation():
+	$Sprite2D.visible = false
+	$SpriteUsar.visible = true
+	# Lógica de animação aqui também
 	
 @warning_ignore("unused_parameter")
 func  _physics_process(delta) :

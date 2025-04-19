@@ -143,7 +143,7 @@ Nos jogos de \textit{Role-playing}, ou RPGs, os jogadores interpretam seus perso
 
 \section{Tecnologias para Desenvolvimento de Jogos} 
 
-(dar contextualização para a explicação da engine...)
+O código-fonte de um jogo é, sem dúvida, seu elemento central, incluindo tudo que está diretamente relacionado ao jogo, definindo a experiência do jogador, como a jogabilidade, os elementos visuais, sistema de pontuação, entre outros aspectos \cite{Rabin2021}. Embora seja possível criar um jogo utilizando puramente linguagens de programação, como \textit{Java}, \textit{C} ou até mesmo bibliotecas como \textit{Raylib}, o uso de uma \textit{engine} pode facilitar o desenvolvimento e garantir uma maior eficiência na produção de um jogo.
 
 De acordo com a definição de \citeauthorandyear{CluaBittencourt2005}, uma \textit{engine}, ou motor gráfico, é uma ferramenta essencial no desenvolvimento de jogos, responsável por executar diversas funcionalidades técnicas. Entre elas estão o \textit{hardware} gráfico, o controle dos modelos a serem renderizados e o tratamento das entradas de dados do jogador. Além disso, ela lida com os processos básicos que garantem o funcionamento adequado do jogo. 
 
@@ -192,24 +192,53 @@ Na Figura~\ref{fig:unity} é apresentado a interface da \textit{engine Unity}.
 
 \subsection{Unreal Engine}
 
-A \textit{Unreal Engine} é um motor gráfico desenvolvido pela empresa \textit{Epic Games} e, atualmente, é considerada a principal \textit{engine} para visualizações realistas, e a criação de vegetação e terrenos. É a \textit{engine} mais indicada para projetos grandes e, embora possua suporte para \textit{IOS} e \textit{Android}, não é a mais recomendada para jogos \textit{mobile}. Um de seus maiores diferencias é o sistema \textit{Blueprint}, uma ferramenta visual de lógica composta por grafos conectados através de blocos, substituindo a necessidade de scripts tradicionais \cite{Smid2017}.
+\textit{Unreal Engine} é um motor gráfico desenvolvido pela empresa \textit{Epic Games} e, atualmente, é considerada a principal \textit{engine} para visualizações realistas, e a criação de vegetação e terrenos. É a \textit{engine} mais indicada para projetos grandes e, embora possua suporte para \textit{IOS} e \textit{Android}, não é a mais recomendada para jogos \textit{mobile}. Um de seus maiores diferencias é o sistema \textit{Blueprint}, uma ferramenta visual de lógica composta por grafos conectados através de blocos, substituindo a necessidade de scripts tradicionais \cite{Smid2017}.
 
 Também de acordo com o acadêmico \citeauthorandyear{Smid2017}, a \textit{Unreal Engine} utiliza da linguagem de programação C++, tanto para implementação dos jogos quanto para o desenvolvimento de seu código-fonte aberto, proporcionando assim um grande controle sobre o sistema para os usuários. Além disso, sua tecnologia de renderização é muito eficaz, possuindo efeitos de pós-processamento rápidos com diversos recursos integrados. A \textit{engine} também dispõe de um editor para a criação de  materiais personalizados, e ferramentas para otimização e depuração visual.
 
-(...)
+Na Figura~\ref{fig:unreal} é apresentado a interface da \textit{Unreal Engine}.
+
+\FloatBarrier 
+\begin{figure}[!htbp]
+	\centering
+	\caption{\textit{Interface Unreal Engine}}
+	\includegraphics[width=0.7\linewidth]{imagens/unreal.jpg}
+	\\\textbf{Fonte:} https://dev.epicgames.com/community/learning/tutorials/PnXj/unreal-engine-in-development-overview-of-the-unreal-editor-interface
+	
+	\label{fig:unreal}
+\end{figure}
+\FloatBarrier
+
 
 \subsection{Game Maker}	
 
-\textit{text}
+\textit{Game Maker} é uma \textit{engine} de desenvolvimento multiplataforma
+criada pela \textit{YoYo Games}. Ela possui sua própria linguagem de \textit{script}, a \textit{Game Maker Language}, além de oferecer uma linguagem visual baseada no sistema de arrastar e soltar. Por conta desta tecnologia, o \textit{Game Maker} se destaca como uma excelente \textit{engine} para desenvolvedores iniciantes, e embora seja voltada principalmente para a criação de jogos 2D, tambem é possivel o desenvolvimento de jogos 3D \cite{Sparks2020}.
+
+Além das ferramentas já mencionada, a \textit{engine} também oferece um editor de imagens completo, para a criação e edição de \textit{sprites} diretamente da plataforma. Também é possível importar arquivos externos, como animações e imagens vetorizadas, conta com editores para manipulação de objetos, salas, sequências animadas e outros recursos que facilitam o desenvolvimento de jogos \cite{GameMakerManual2023}. 
+
+Na Figura~\ref{fig:gamemaker} é apresentado a interface do \textit{Game Maker}.
+
+\FloatBarrier 
+\begin{figure}[!htbp]
+	\centering
+	\caption{\textit{Interface Game Maker}}
+	\includegraphics[width=0.7\linewidth]{imagens/gamemaker.png}
+	\\\textbf{Fonte:} 
+	https://manual.gamemaker.io
+	\label{fig:gamemaker}
+\end{figure}
+\FloatBarrier
 
 
 \section{Trabalhos Correlatos}
 
-\subsection{Speedy Dungeon}
+
+\subsection{Luxos Adventure}
 
 Texto...
 
-\subsection{Luxos Adventure}
+\subsection{{Trabalho 2}
 
 Texto...
 
