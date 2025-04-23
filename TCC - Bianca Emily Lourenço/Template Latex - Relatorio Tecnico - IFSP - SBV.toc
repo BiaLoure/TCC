@@ -27,15 +27,17 @@
 \contentsline {subsection}{\numberline {2.3.4}Game Maker}{17}{subsection.2.3.4}%
 \contentsline {section}{\numberline {2.4}Trabalhos Correlatos}{18}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Luxos Adventure}{18}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Speedy Dungeon}{18}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Desenvolvimento de um jogo 2D utilizando Unity}{19}{subsection.2.4.3}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Metodologia}}{19}{chapter.3}%
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Metodologia}}{20}{chapter.3}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Análise dos Resultados}}{20}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Resultados/Impactos}{20}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Orçamento}{20}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Cronograma do Trabalho}{20}{section.4.3}%
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Análise dos Resultados}}{21}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Resultados/Impactos}{21}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Orçamento}{21}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Cronograma do Trabalho}{21}{section.4.3}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Conclusões e Recomendações}}{21}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Conclusões e Recomendações}}{22}{chapter.5}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{22}{section*.18}%
+\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{23}{section*.18}%

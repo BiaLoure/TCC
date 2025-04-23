@@ -9,7 +9,7 @@
 \abntrefinfo{Apperley}{Apperley}{2006}
 {APPERLEY, T. Genre and game studies: Toward a critical approach to video game
   genres.
-\textbf{Simulation & Gaming}, v.~37, n.~1, p. 6--23, 2006.}
+\textbf{Simulation \& Gaming}, v.~37, n.~1, p. 6--23, 2006.}
 
 \bibitem[Bradfield 2018]{Bradfield2018}
 \abntrefinfo{Bradfield}{Bradfield}{2018}
@@ -23,6 +23,16 @@ ISBN 9781788831505.}
   design e programação. In:  \textbf{Anais da XXIV Jornada de Atualização
   em Informática do Congresso da Sociedade Brasileira de Computação}. São
   Leopoldo, Brasil: [s.n.], 2005. p. 1313--1357.}
+
+\bibitem[Cordeiro 2023]{cordeiro2023}
+\abntrefinfo{Cordeiro}{Cordeiro}{2023}
+{CORDEIRO, L.~P.
+\textbf{Luxos Adventure: Desenvolvimento de um jogo 2D utilizando a engine
+  Godot}.
+Disserta\c{c}\~{a}o (Trabalho de Conclusão de Curso (Bacharelado em Ciência
+  da Computação)) --- Instituto Federal de Educação, Ciência e Tecnologia
+  de São Paulo – Câmpus São João da Boa Vista, São João da Boa Vista,
+  SP, novembro 2023. Orientador: Prof. Dr. David Buzatto.}
 
 \bibitem[Crawford.C 1997]{Crawford1997}
 \abntrefinfo{Crawford.C}{Crawford.C}{1997}
@@ -63,6 +73,24 @@ Available at:
   Cengage Learning, 2021.
 ISBN 9781138787087.}
 
+\bibitem[Silva 2022]{silva2022}
+\abntrefinfo{Silva}{Silva}{2022}
+{SILVA, J.
+\textbf{Speedy Dungeon: Desenvolvimento de um Jogo 2D no Estilo Dungeon Crawler
+  Utilizando a Engine Godot}.
+Disserta\c{c}\~{a}o (Trabalho de Conclusão de Curso (Bacharelado em Ciência
+  da Computação)) --- Instituto Federal de Educação, Ciência e Tecnologia,
+  São Paulo, SP, 2022. Orientador: Prof. Dr. David Buzatto.}
+
+\bibitem[Sofiatti 2022]{sofiatti2022}
+\abntrefinfo{Sofiatti}{Sofiatti}{2022}
+{SOFIATTI, G. M.~C.
+\textbf{Desenvolvimento de um Jogo 2D Utilizando Unity}.
+Disserta\c{c}\~{a}o (Trabalho de Conclusão de Curso (Bacharelado em Ciência
+  da Computação)) --- Instituto Federal de Educação, Ciência e Tecnologia
+  de São Paulo -- Câmpus São João da Boa Vista, São João da Boa Vista,
+  SP, dezembro 2022. Orientador: Prof. Dr. David Buzatto.}
+
 \bibitem[Sparks 2020]{Sparks2020}
 \abntrefinfo{Sparks}{Sparks}{2020}
 {SPARKS, B. \textbf{GameMaker Studio 2: Introduction to Game Design and
@@ -80,10 +108,11 @@ ISBN 9781683924967.}
   2}. 2023.
 Acesso em: 19 abr. 2025.
 Dispon{\'\i}vel em:
-  \url{https://manual.gamemaker.io/monthly/br/index.htm\#utm\_source=chatgpt.com&t=Introduction\%2FIntroduction\_To\_GameMaker\_Studio\_2.htm}.}
+  \url{https://manual.gamemaker.io/monthly/br/index.htm\#utm\_source=chatgpt.com=Introduction\%2FIntroduction\_To\_GameMaker\_Studio\_2.htm}.}
 
 \bibitem[Šmíd 2017]{Smid2017}
 \abntrefinfo{Šmíd}{Šmíd}{2017}
-{ŠMíD, A. \textbf{Comparison of Unity and Unreal Engine}. 2017. 41--61~p.}
+{ŠMíD, A. Comparison of unity and unreal engine.
+p. 41--61, 2017.}
 
 \end{thebibliography}
