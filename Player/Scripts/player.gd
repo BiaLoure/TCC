@@ -6,7 +6,7 @@ var direction: Vector2 = Vector2.ZERO
 @onready var animation_player : AnimationPlayer = $AnimationPlayer
 @onready var sprite : Sprite2D = $Sprite2D
 @onready var state_machine : PlayerStateMachine = $StateMachine
-@onready var machado: State_Machado = $StateMachine/Machado
+
 
 
 
