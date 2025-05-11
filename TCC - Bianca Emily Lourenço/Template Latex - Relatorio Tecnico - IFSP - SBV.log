@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.19)  2 MAY 2025 12:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.19)  8 MAY 2025 11:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1700,11 +1700,11 @@ Package rerunfilecheck Info: File `"Template Latex - Relatorio Tecnico - IFSP -
 (rerunfilecheck)             Checksum: 9518713ECD097F6803900623A5A0BF5E;2000.
  ) 
 Here is how much of TeX's memory you used:
- 36233 strings out of 474486
- 653437 string characters out of 5753567
+ 36235 strings out of 474486
+ 653459 string characters out of 5753567
  1940542 words of memory out of 5000000
  57578 multiletter control sequences out of 15000+600000
- 637942 words of font info for 179 fonts, out of 8000000 for 9000
+ 638071 words of font info for 180 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  114i,20n,115p,1048b,716s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/M
@@ -1717,7 +1717,7 @@ mri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Program
 ype1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss
 o12.pfb>
 Output written on "Template Latex - Relatorio Tecnico - IFSP - SBV.pdf" (26 pag
-es, 11824337 bytes).
+es, 11824358 bytes).
 PDF statistics:
  582 PDF objects out of 1000 (max. 8388607)
  105 named destinations out of 1000 (max. 500000)

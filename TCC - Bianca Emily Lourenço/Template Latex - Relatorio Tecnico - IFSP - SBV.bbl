@@ -36,8 +36,7 @@ Disserta\c{c}\~{a}o (Trabalho de Conclusão de Curso (Bacharelado em Ciência
 
 \bibitem[Crawford.C 1997]{Crawford1997}
 \abntrefinfo{Crawford.C}{Crawford.C}{1997}
-{CRAWFORD.C. The art of computer game design.
-p.~1--9, 1997.}
+{CRAWFORD.C. \textbf{The Art of Computer Game Design}. 1997. 1-9~p.}
 
 \bibitem[{Godot Engine Community} 2024]{GodotDocs2024}
 \abntrefinfo{{Godot Engine Community}}{{Godot Engine Community}}{2024}
@@ -112,7 +111,6 @@ Dispon{\'\i}vel em:
 
 \bibitem[Šmíd 2017]{Smid2017}
 \abntrefinfo{Šmíd}{Šmíd}{2017}
-{ŠMíD, A. Comparison of unity and unreal engine.
-p. 41--61, 2017.}
+{ŠMíD, A. \textbf{Comparison of Unity and Unreal Engine}. 2017. 41--61~p.}
 
 \end{thebibliography}
