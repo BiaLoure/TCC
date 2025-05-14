@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.19)  8 MAY 2025 11:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.14)  14 MAY 2025 11:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -12,8 +12,8 @@ Document Class: abntex2 2018/11/24 v-1.9.7 abnTeX2
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
 (C:\Users\Bianca\AppData\Roaming\MiKTeX\tex/latex/memoir\memoir.cls
-Document Class: memoir 2025/03/06 v3.8.3 configurable book, report, article doc
-ument class
+Document Class: memoir 2025/03/10 v3.8.3b configurable book, report, article do
+cument class
 (C:\Users\Bianca\AppData\Roaming\MiKTeX\tex/latex/xpatch\xpatch.sty
 (C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2024-01-04 L3 programming layer (loader) 
@@ -281,8 +281,8 @@ Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 \indexrule=\skip160
 \indexmarkstyle=\toks22
 \@indexbox=\insert252
-LaTeX Info: Redefining \raggedbottom on input line 8107.
-LaTeX Info: Redefining \flushbottom on input line 8111.
+LaTeX Info: Redefining \raggedbottom on input line 8108.
+LaTeX Info: Redefining \flushbottom on input line 8112.
 \glossarycolsep=\dimen178
 \glossaryrule=\dimen179
 \sideparvshift=\skip161
@@ -1239,7 +1239,7 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 ))
 (C:\Users\Bianca\AppData\Roaming\MiKTeX\tex/latex/pdfpages\pdfpages.sty
-Package: pdfpages 2025/01/30 v0.6e Insert pages of external PDF documents (AM)
+Package: pdfpages 2025/03/12 v0.6f Insert pages of external PDF documents (AM)
 
 (C:\Users\Bianca\AppData\Roaming\MiKTeX\tex/latex/eso-pic\eso-pic.sty
 Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
@@ -1251,7 +1251,7 @@ Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
 \AM@fboxrule=\dimen348
 
 (C:\Users\Bianca\AppData\Roaming\MiKTeX\tex/latex/pdfpages\pppdftex.def
-File: pppdftex.def 2025/01/30 v0.6e Pdfpages driver for pdfTeX (AM)
+File: pppdftex.def 2025/03/12 v0.6f Pdfpages driver for pdfTeX (AM)
 )
 \pdfpages@includegraphics@status=\count408
 \AM@pagebox=\box79
@@ -1656,11 +1656,11 @@ Package pdftex.def Info: imagens/gamemaker.png  used on input line 221.
 (pdftex.def)             Requested size: 318.49861pt x 150.86612pt.
  [18 <./imagens/unreal.jpg>]) (capitulo03Metodologia.tex [19 <./imagens/gamemak
 er.png>] [20]
-<imagens/metodologia.png, id=330, 697.4055pt x 417.35925pt>
+<imagens/metodologia.png, id=330, 770.12718pt x 512.66531pt>
 File: imagens/metodologia.png Graphic file (type png)
 <use imagens/metodologia.png>
 Package pdftex.def Info: imagens/metodologia.png  used on input line 10.
-(pdftex.def)             Requested size: 455.0pt x 272.29922pt.
+(pdftex.def)             Requested size: 455.0pt x 302.8845pt.
  [21
 
  <./imagens/metodologia.png>]) (capitulo04AnaliseDosResultados.tex [22]
@@ -1706,7 +1706,7 @@ Here is how much of TeX's memory you used:
  57578 multiletter control sequences out of 15000+600000
  638071 words of font info for 180 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 114i,20n,115p,1048b,716s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 114i,20n,115p,1048b,714s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/M
 iKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/pu
 blic/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/
@@ -1717,7 +1717,7 @@ mri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Program
 ype1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss
 o12.pfb>
 Output written on "Template Latex - Relatorio Tecnico - IFSP - SBV.pdf" (26 pag
-es, 11824358 bytes).
+es, 11829738 bytes).
 PDF statistics:
  582 PDF objects out of 1000 (max. 8388607)
  105 named destinations out of 1000 (max. 500000)

@@ -34,9 +34,11 @@ Disserta\c{c}\~{a}o (Trabalho de Conclusão de Curso (Bacharelado em Ciência
   de São Paulo – Câmpus São João da Boa Vista, São João da Boa Vista,
   SP, novembro 2023. Orientador: Prof. Dr. David Buzatto.}
 
-\bibitem[Crawford.C 1997]{Crawford1997}
-\abntrefinfo{Crawford.C}{Crawford.C}{1997}
-{CRAWFORD.C. \textbf{The Art of Computer Game Design}. 1997. 1-9~p.}
+\bibitem[Crawford 1997]{Crawford1997}
+\abntrefinfo{Crawford}{Crawford}{1997}
+{CRAWFORD, C. \textbf{The Art of Computer Game Design}. [S.l.]: Washington
+  State University, 1997. 1--9~p. Originally published in 1982, republished
+  online.}
 
 \bibitem[{Godot Engine Community} 2024]{GodotDocs2024}
 \abntrefinfo{{Godot Engine Community}}{{Godot Engine Community}}{2024}

@@ -14,7 +14,7 @@
 \contentsline {subsection}{\numberline {2.1.1}Jogos de Tabuleiro}{10}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Jogos de Cartas}{11}{subsection.2.1.2}%
 \contentsline {subsection}{\numberline {2.1.3}Jogos Atléticos}{12}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}Jogos Digitais}{13}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.4}Jogos Digitais}{12}{subsection.2.1.4}%
 \contentsline {section}{\numberline {2.2}Tipos de Jogos Eletrônicos}{13}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Simulação}{13}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Estratégia}{14}{subsection.2.2.2}%
