@@ -41,9 +41,11 @@
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Resultados Preliminares}}{23}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Desenvolvimento}{23}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Cronograma do Trabalho}{23}{section.4.2}%
+\contentsline {subsection}{\numberline {4.1.1}Assets}{24}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Repositório}{24}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Cronograma do Trabalho}{25}{section.4.2}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Conclusões e Recomendações}}{25}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Conclusões e Recomendações}}{26}{chapter.5}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{26}{section*.20}%
+\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{27}{section*.22}%
