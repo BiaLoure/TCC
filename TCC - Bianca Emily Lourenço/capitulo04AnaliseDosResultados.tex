@@ -1,4 +1,4 @@
-\chapter{Resultados Preliminares}
+\chapter{Resultados Parciais}
 \label{cap:04}
 
 Foi desenvolvido um jogo do gênero \textit{farming} com elementos \textit{cozy}, como movimentação livre, progressão por coleta e também cultivo, junto de interações ambientais. Apesar de haver espaço para melhorias e novas funcionalidades, o jogo está operacional, com os principais sistemas implementados.
@@ -28,12 +28,12 @@ A maioria dos \textit{assets} utilizados neste projeto foi obtida por meio do si
 	\centering
 	\caption{\textit{Assets} do personagem principal}
 	\includegraphics[width=0.4\linewidth]{imagens/assets.png}
-	\\\textbf{Fonte:}  COLOCAR LINK 
+	\\\textbf{Fonte:}\url{https://cupnooble.itch.io/sprout-lands-asset-pack}
 	\label{fig:assets}
 \end{figure}
 \FloatBarrier
 
-A partir destes \textit{assets}, foram elaborados as animações de andar do personagem principal, utilizando sequências de \textit{frames} que representam o movimento contínuo. Além disso, também foram selecionados os \textit{assets} utilizados na construção do mapa, incluindo elementos de cenário, o fundo e objetos interativos. Tais \textit{assets} são apresentados na Figura~\ref{fig:elementos}
+A partir destes \textit{assets}, foram elaborados as animações de andar do personagem principal, utilizando sequências de \textit{frames} que representam o movimento contínuo. Além disso, também foram selecionados os \textit{assets} utilizados na construção do mapa, incluindo elementos de cenário, o fundo e objetos interativos. Tais \textit{assets} são apresentados na Figura~\ref{fig:elementos}.
 
 \FloatBarrier 
 \begin{figure}[!htbp]
@@ -46,11 +46,41 @@ A partir destes \textit{assets}, foram elaborados as animações de andar do per
 \FloatBarrier
 
 
-EXPLICAR A COLISÃO
+Além disso, caixas de colisão foram aplicadas a esses elementos para garantir que os personagens não atravessem objetos sólidos do cenário, respeitando os limites definidos e mantendo a coerência da movimentação no ambiente do jogo. A partir disto, foi possível criar um \textit{TileMap}, que utiliza destes objetos e de outras texturas para compor, de forma modular, o cenário principal do jogo, que é apresentado na Figura~\ref{fig:cena}.
 
-\subsection{Repositório}
+\FloatBarrier 
+\begin{figure}[!htbp]
+	\centering
+	\caption{Cenário principal}
+	\includegraphics[width=0.7\linewidth]{imagens/cena.png}
+	\\\textbf{Fonte:} Elaborada pelo autor
+	\label{fig:cena}
+\end{figure}
+\FloatBarrier
 
-LINK REPOSITÓRIO
+Na Figura~\ref{fig:cena}, também é possível observar caixas de colisão nas cores rosa e verde. As caixas rosas representam áreas de interação do player, posicionadas em árvores e pedras para permitir a coleta de recursos pelo jogador. Já a caixa verde, localizada na porta, corresponde a um bloco de ativação de animação, responsável por acionar a abertura e o fechamento da mesma.
+
+\subsection{Game Design Document}
+
+O desenvolvimento do jogo foi orientado por um Game Design Document (GDD), que reuniu as principais informações sobre mecânicas, regras, narrativa, personagens e estilo visual. Esse documento serviu como base para as decisões de projeto, garantindo organização e consistência durante todo o processo.
+
+A Figura~\ref{fig:gdd} apresenta um trecho do GDD criado para este projeto.
+
+\FloatBarrier
+\begin{figure}[!htbp]
+	\centering
+	\caption{Trecho do Game Design Document (GDD)}
+	\includegraphics[width=0.7\linewidth]{imagens/gdd.png}
+	\\\textbf{Fonte:} Elaborada pelo autor
+	\label{fig:gdd}
+\end{figure}
+\FloatBarrier
+
+\section{Repositório do Github}
+
+O código base do jogo e o GDD (Game Design Document) do jogo estão disponíveis no link do \textit{ Github}:
+
+\url{https://github.com/BiaLoure/Jogo}	
 
 
 \section{Cronograma do Trabalho}

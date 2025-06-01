@@ -39,13 +39,14 @@
 \contentsline {section}{\numberline {3.5}Desenvolvimento do código-base do jogo}{22}{section.3.5}%
 \contentsline {section}{\numberline {3.6}Testar o jogo}{22}{section.3.6}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Resultados Preliminares}}{23}{chapter.4}%
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Resultados Parciais}}{23}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Desenvolvimento}{23}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Assets}{24}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Repositório}{24}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}Cronograma do Trabalho}{25}{section.4.2}%
+\contentsline {subsection}{\numberline {4.1.2}Game Design Document}{25}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Repositório do Github}{26}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Cronograma do Trabalho}{26}{section.4.3}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Conclusões e Recomendações}}{26}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Conclusões e Recomendações}}{28}{chapter.5}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{27}{section*.22}%
+\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{29}{section*.24}%
