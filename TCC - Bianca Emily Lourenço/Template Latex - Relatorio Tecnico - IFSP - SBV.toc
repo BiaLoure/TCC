@@ -20,33 +20,33 @@
 \contentsline {subsection}{\numberline {2.2.2}Estratégia}{14}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Ação}{14}{subsection.2.2.3}%
 \contentsline {subsection}{\numberline {2.2.4}\textit {Role-playing}}{15}{subsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.2.5}\textit {Cozy Games}}{15}{subsection.2.2.5}%
-\contentsline {section}{\numberline {2.3}Tecnologias para Desenvolvimento de Jogos}{15}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Godot}{16}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Unity}{17}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Unreal Engine}{18}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Game Maker}{19}{subsection.2.3.4}%
-\contentsline {section}{\numberline {2.4}Trabalhos Correlatos}{20}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Luxos Adventure}{20}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Speedy Dungeon}{20}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Desenvolvimento de um jogo 2D utilizando Unity}{20}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.2.5}\textit {Cozy Games}}{16}{subsection.2.2.5}%
+\contentsline {section}{\numberline {2.3}Tecnologias para Desenvolvimento de Jogos}{17}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Godot}{17}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Unity}{18}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Unreal Engine}{19}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Game Maker}{20}{subsection.2.3.4}%
+\contentsline {section}{\numberline {2.4}Trabalhos Correlatos}{21}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Luxos Adventure}{21}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Speedy Dungeon}{21}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Desenvolvimento de um jogo 2D utilizando Unity}{21}{subsection.2.4.3}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Metodologia}}{21}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Definição do escopo do jogo}{21}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Processo de Instalação, Configuração e Aprendizado da Engine Godot}{22}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Elaboração do Game Design Document (GDD)}{22}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Obtenção e desenvolvimento dos assets do jogo}{22}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Desenvolvimento do código-base do jogo}{22}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Testar o jogo}{22}{section.3.6}%
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Metodologia}}{22}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Definição do escopo do jogo}{22}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Processo de Instalação, Configuração e Aprendizado da Engine Godot}{23}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Elaboração do Game Design Document (GDD)}{23}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Obtenção e desenvolvimento dos assets do jogo}{23}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Desenvolvimento do código-base do jogo}{23}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Testar o jogo}{23}{section.3.6}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Resultados Parciais}}{23}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Desenvolvimento}{23}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Assets}{24}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Game Design Document}{25}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}Repositório do Github}{26}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Cronograma do Trabalho}{26}{section.4.3}%
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Resultados Parciais}}{24}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Desenvolvimento}{24}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Assets}{25}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Game Design Document}{26}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Repositório do Github}{27}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Cronograma do Trabalho}{27}{section.4.3}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Conclusões e Recomendações}}{28}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Conclusões e Recomendações}}{29}{chapter.5}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{29}{section*.24}%
+\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{30}{section*.26}%

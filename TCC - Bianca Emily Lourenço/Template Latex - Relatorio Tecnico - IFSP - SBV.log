@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.14)  1 JUN 2025 02:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.14)  13 JUN 2025 13:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1582,16 +1582,16 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
 
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-7.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
+1.
  (C:\Program Files\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 [8
 
-{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}])
-(capitulo02ConsideracoesGerais.tex [9]
-<imagens/Xadrez.png, id=185, 1339.0025pt x 1015.795pt>
+]) (capitulo02ConsideracoesGerais.tex [9{C:/Program Files/MiKTeX/fonts/enc/dvip
+s/lm/lm-ts1.enc}]
+<imagens/Xadrez.png, id=200, 1339.0025pt x 1015.795pt>
 File: imagens/Xadrez.png Graphic file (type png)
 <use imagens/Xadrez.png>
 Package pdftex.def Info: imagens/Xadrez.png  used on input line 30.
@@ -1599,126 +1599,132 @@ Package pdftex.def Info: imagens/Xadrez.png  used on input line 30.
  [10
 
 ]
-<imagens/Cartas.jpg, id=199, 4111.36pt x 2740.2375pt>
+<imagens/Cartas.jpg, id=213, 4111.36pt x 2740.2375pt>
 File: imagens/Cartas.jpg Graphic file (type jpg)
 <use imagens/Cartas.jpg>
 Package pdftex.def Info: imagens/Cartas.jpg  used on input line 50.
 (pdftex.def)             Requested size: 318.49861pt x 212.24077pt.
  [11 <./imagens/Xadrez.png>]
-<imagens/futebol.jpg, id=211, 1284.8pt x 700.6175pt>
+<imagens/futebol.jpg, id=225, 1284.8pt x 700.6175pt>
 File: imagens/futebol.jpg Graphic file (type jpg)
 <use imagens/futebol.jpg>
 Package pdftex.def Info: imagens/futebol.jpg  used on input line 67.
 (pdftex.def)             Requested size: 318.49861pt x 173.67865pt.
-
-[12 <./imagens/Cartas.jpg> <./imagens/futebol.jpg>]
-<imagens/EuroTruck.jpg, id=228, 1164.35pt x 655.44875pt>
+ [12 <./imagens/Cartas.jpg> <./imagens/futebol.jpg>]
+<imagens/EuroTruck.jpg, id=242, 1164.35pt x 655.44875pt>
 File: imagens/EuroTruck.jpg Graphic file (type jpg)
 <use imagens/EuroTruck.jpg>
 Package pdftex.def Info: imagens/EuroTruck.jpg  used on input line 99.
 (pdftex.def)             Requested size: 318.49861pt x 179.28383pt.
  [13]
-<imagens/tft3.png, id=239, 1204.5pt x 677.53125pt>
+<imagens/tft3.png, id=252, 1204.5pt x 677.53125pt>
 File: imagens/tft3.png Graphic file (type png)
 <use imagens/tft3.png>
 Package pdftex.def Info: imagens/tft3.png  used on input line 114.
 (pdftex.def)             Requested size: 318.49861pt x 179.15207pt.
  [14 <./imagens/EuroTruck.jpg> <./imagens/tft3.png>]
-<imagens/valorant.png, id=248, 1927.2pt x 1084.05pt>
+<imagens/valorant.png, id=261, 1927.2pt x 1084.05pt>
 File: imagens/valorant.png Graphic file (type png)
 <use imagens/valorant.png>
 Package pdftex.def Info: imagens/valorant.png  used on input line 130.
 (pdftex.def)             Requested size: 318.49861pt x 179.14172pt.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 137.
+<imagens/RPG.jpg, id=265, 610.73239pt x 343.02803pt>
+File: imagens/RPG.jpg Graphic file (type jpg)
+<use imagens/RPG.jpg>
+Package pdftex.def Info: imagens/RPG.jpg  used on input line 146.
+(pdftex.def)             Requested size: 318.49861pt x 178.88855pt.
  [15 <./imagens/valorant.png (PNG copy)>]
-<imagens/godot-editor-01.png, id=269, 1284.8pt x 722.7pt>
+<imagens/cozy.jpg, id=279, 1927.2pt x 1084.05pt>
+File: imagens/cozy.jpg Graphic file (type jpg)
+<use imagens/cozy.jpg>
+Package pdftex.def Info: imagens/cozy.jpg  used on input line 165.
+(pdftex.def)             Requested size: 318.49861pt x 179.14172pt.
+ [16 <./imagens/RPG.jpg>] [17 <./imagens/cozy.jpg>]
+<imagens/godot-editor-01.png, id=304, 1284.8pt x 722.7pt>
 File: imagens/godot-editor-01.png Graphic file (type png)
 <use imagens/godot-editor-01.png>
-Package pdftex.def Info: imagens/godot-editor-01.png  used on input line 171.
+Package pdftex.def Info: imagens/godot-editor-01.png  used on input line 193.
 (pdftex.def)             Requested size: 318.49861pt x 179.15276pt.
- [16]
-<imagens/unity.png, id=284, 702.625pt x 444.66125pt>
+<imagens/unity.png, id=311, 702.625pt x 444.66125pt>
 File: imagens/unity.png Graphic file (type png)
 <use imagens/unity.png>
-Package pdftex.def Info: imagens/unity.png  used on input line 190.
+Package pdftex.def Info: imagens/unity.png  used on input line 212.
 (pdftex.def)             Requested size: 318.49861pt x 201.56804pt.
-
-[17 <./imagens/godot-editor-01.png>]
-<imagens/unreal.jpg, id=299, 309.155pt x 163.61125pt>
+ [18 <./imagens/godot-editor-01.png>]
+<imagens/unreal.jpg, id=326, 309.155pt x 163.61125pt>
 File: imagens/unreal.jpg Graphic file (type jpg)
 <use imagens/unreal.jpg>
-Package pdftex.def Info: imagens/unreal.jpg  used on input line 210.
+Package pdftex.def Info: imagens/unreal.jpg  used on input line 232.
 (pdftex.def)             Requested size: 318.49861pt x 168.57138pt.
- [18 <./imagens/unity.png>]
-<imagens/gamemaker.png, id=312, 1373.13pt x 650.43pt>
+ [19 <./imagens/unity.png>]
+<imagens/gamemaker.png, id=341, 1373.13pt x 650.43pt>
 File: imagens/gamemaker.png Graphic file (type png)
 <use imagens/gamemaker.png>
-Package pdftex.def Info: imagens/gamemaker.png  used on input line 230.
+Package pdftex.def Info: imagens/gamemaker.png  used on input line 252.
 (pdftex.def)             Requested size: 318.49861pt x 150.86612pt.
- [19 <./imagens/unreal.jpg> <./imagens/gamemaker.png>]) (capitulo03Metodologia.
-tex [20]
-<imagens/metodologia.png, id=338, 770.12718pt x 512.66531pt>
+ [20 <./imagens/unreal.jpg> <./imagens/gamemaker.png>])
+(capitulo03Metodologia.tex [21]
+<imagens/metodologia.png, id=366, 770.12718pt x 512.66531pt>
 File: imagens/metodologia.png Graphic file (type png)
 <use imagens/metodologia.png>
 Package pdftex.def Info: imagens/metodologia.png  used on input line 10.
 (pdftex.def)             Requested size: 455.0pt x 302.8845pt.
+ [22
 
-[21
-
- <./imagens/metodologia.png>]) (capitulo04AnaliseDosResultados.tex [22]
-<imagens/Pastas.png, id=350, 194.22563pt x 370.38374pt>
+ <./imagens/metodologia.png>])
+(capitulo04AnaliseDosResultados.tex [23]
+<imagens/Pastas.png, id=378, 194.22563pt x 370.38374pt>
 File: imagens/Pastas.png Graphic file (type png)
 <use imagens/Pastas.png>
 Package pdftex.def Info: imagens/Pastas.png  used on input line 16.
 (pdftex.def)             Requested size: 136.50139pt x 260.3124pt.
-
-[23
+ [24
 
  <./imagens/Pastas.png>]
-<imagens/assets.png, id=358, 192.72pt x 192.72pt>
+<imagens/assets.png, id=386, 192.72pt x 192.72pt>
 File: imagens/assets.png Graphic file (type png)
 <use imagens/assets.png>
 Package pdftex.def Info: imagens/assets.png  used on input line 30.
 (pdftex.def)             Requested size: 181.99722pt x 181.99783pt.
-<imagens/elementos.png, id=361, 523.9575pt x 295.85532pt>
+<imagens/elementos.png, id=389, 523.9575pt x 295.85532pt>
 File: imagens/elementos.png Graphic file (type png)
 <use imagens/elementos.png>
 Package pdftex.def Info: imagens/elementos.png  used on input line 42.
 (pdftex.def)             Requested size: 273.00278pt x 154.15714pt.
-<imagens/cena.png, id=363, 638.385pt x 365.86688pt>
+<imagens/cena.png, id=391, 638.385pt x 365.86688pt>
 File: imagens/cena.png Graphic file (type png)
 <use imagens/cena.png>
 Package pdftex.def Info: imagens/cena.png  used on input line 55.
 (pdftex.def)             Requested size: 318.49861pt x 182.53662pt.
- [24 <./imagens/assets.png> <./imagens/elementos.png>]
-<imagens/gdd.png, id=375, 625.58719pt x 438.8897pt>
+ [25 <./imagens/assets.png> <./imagens/elementos.png>]
+<imagens/gdd.png, id=404, 625.58719pt x 438.8897pt>
 File: imagens/gdd.png Graphic file (type png)
 <use imagens/gdd.png>
 Package pdftex.def Info: imagens/gdd.png  used on input line 73.
 (pdftex.def)             Requested size: 318.49861pt x 223.44905pt.
- [25 <./imagens/cena.png>]
-<imagens/cronograma.png, id=384, 423.83344pt x 100.87688pt>
+ [26 <./imagens/cena.png>]
+<imagens/cronograma.png, id=412, 449.42906pt x 495.35063pt>
 File: imagens/cronograma.png Graphic file (type png)
 <use imagens/cronograma.png>
-Package pdftex.def Info: imagens/cronograma.png  used on input line 95.
-(pdftex.def)             Requested size: 423.83238pt x 100.87662pt.
- [26 <./imagens/gdd.png> <./imagens/cronograma.png>]) (capitulo05ConclusoesReco
-mendacoes.tex [27])
-(Template Latex - Relatorio Tecnico - IFSP - SBV.bbl
+Package pdftex.def Info: imagens/cronograma.png  used on input line 93.
+(pdftex.def)             Requested size: 269.6595pt x 297.21268pt.
+ [27 <./imagens/gdd.png>]) (capitulo05ConclusoesRecomendacoes.tex [28 <./imagen
+s/cronograma.png>]) (Template Latex - Relatorio Tecnico - IFSP - SBV.bbl
 (Template Latex - Relatorio Tecnico - IFSP - SBV.brf)
 \tf@brf=\write6
 \openout6 = `"Template Latex - Relatorio Tecnico - IFSP - SBV.brf"'.
 
- [28
+ [29
 
 ]
 bibitemlist
-[29
+[30
 
 ]) 
 AED: lastpage setting LastPage
-[30]
+[31]
 \tf@toc=\write7
 \openout7 = `"Template Latex - Relatorio Tecnico - IFSP - SBV.toc"'.
 
@@ -1729,29 +1735,28 @@ L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `"Template Latex - Relatorio Tecnico - IFSP -
  SBV".brf' has not changed.
-(rerunfilecheck)             Checksum: 55A201417F7619DA5B3DF7B452CFCF19;2000.
+(rerunfilecheck)             Checksum: 37CDD76F5AAFB463366B330E2B594FFF;2612.
  ) 
 Here is how much of TeX's memory you used:
- 36296 strings out of 474486
- 654611 string characters out of 5753567
+ 36339 strings out of 474486
+ 655280 string characters out of 5753567
  1941542 words of memory out of 5000000
- 57622 multiletter control sequences out of 15000+600000
- 638291 words of font info for 182 fonts, out of 8000000 for 9000
+ 57643 multiletter control sequences out of 15000+600000
+ 635856 words of font info for 186 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 114i,20n,115p,1048b,714s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 114i,20n,115p,1099b,714s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/M
 iKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/pu
 blic/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/
-Program Files/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX/fo
-nts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/l
-mri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Program
- Files/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Program Files/MiKTeX/fonts/t
-ype1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss
-o12.pfb>
-Output written on "Template Latex - Relatorio Tecnico - IFSP - SBV.pdf" (30 pag
-es, 11963881 bytes).
+Program Files/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX/
+fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm
+/lmss12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Progr
+am Files/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fon
+ts/type1/public/lm/lmsso12.pfb>
+Output written on "Template Latex - Relatorio Tecnico - IFSP - SBV.pdf" (31 pag
+es, 13546684 bytes).
 PDF statistics:
- 644 PDF objects out of 1000 (max. 8388607)
- 118 named destinations out of 1000 (max. 500000)
- 45520 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 688 PDF objects out of 1000 (max. 8388607)
+ 131 named destinations out of 1000 (max. 500000)
+ 43482 words of extra memory for PDF output out of 51595 (max. 10000000)
 
