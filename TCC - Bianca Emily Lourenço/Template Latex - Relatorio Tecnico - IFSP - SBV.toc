@@ -7,7 +7,7 @@
 \contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Introdução}}{8}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Objetivos}{8}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Objetivo Geral}{8}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}Objetivos Específicos}{9}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.2}Objetivos Específicos}{8}{subsection.1.1.2}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Considerações Gerais}}{10}{chapter.2}%
 \contentsline {section}{\numberline {2.1}O que é um jogo?}{10}{section.2.1}%
@@ -46,7 +46,7 @@
 \contentsline {section}{\numberline {4.2}Repositório do Github}{27}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Cronograma do Trabalho}{27}{section.4.3}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Conclusões e Recomendações}}{29}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Conclusões Parciais}}{29}{chapter.5}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{30}{section*.26}%
