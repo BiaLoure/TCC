@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.19)  19 JUN 2025 17:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.23)  24 JUN 2025 11:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **"./Template Latex - Relatorio Tecnico - IFSP - SBV.tex"
 (Template Latex - Relatorio Tecnico - IFSP - SBV.tex
-LaTeX2e <2025-06-01>
+LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-05-26>
 (C:\Users\Bianca\AppData\Roaming\MiKTeX\tex/latex/abntex2\abntex2.cls
 Document Class: abntex2 2018/11/24 v-1.9.7 abnTeX2
@@ -135,7 +135,7 @@ File: mem12.clo 2022/07/29 v0.5 memoir class 12pt size option
 \afterPoemTitleskip=\skip116
 
 (C:\Program Files\MiKTeX\tex/latex/tools\array.sty
-Package: array 2025/05/19 v2.6i Tabular extension package (FMi)
+Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
 \col@sep=\dimen153
 \ar@mcellbox=\box53
 \extrarowheight=\dimen154
@@ -719,14 +719,14 @@ Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@posthook=\toks29
 )
 (C:\Users\Bianca\AppData\Roaming\MiKTeX\tex/latex/lastpage\lastpage.sty
-Package: lastpage 2025/01/27 v2.1e lastpage: 2.09 or 2e? (HMM)
+Package: lastpage 2025/06/06 v2.1g lastpage: 2.09 or 2e? (HMM)
 
 (C:\Users\Bianca\AppData\Roaming\MiKTeX\tex/latex/lastpage\lastpage2e.sty
-Package: lastpage2e 2025/01/27 v2.1e Decide which 2e lastpage version to use (H
+Package: lastpage2e 2025/06/06 v2.1g Decide which 2e lastpage version to use (H
 MM)
 
 (C:\Users\Bianca\AppData\Roaming\MiKTeX\tex/latex/lastpage\lastpagemodern.sty
-Package: lastpagemodern 2025-01-27 v2.1e Refers to last page's name (HMM; JPG)
+Package: lastpagemodern 2025-06-06 v2.1g Refers to last page's name (HMM; JPG)
 \c@lastpagecount=\count371
 )
 
@@ -756,7 +756,7 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 )
 (C:\Users\Bianca\AppData\Roaming\MiKTeX\tex/latex/colortbl\colortbl.sty
-Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
+Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
 \everycr=\toks30
 \minrowclearance=\skip258
 \rownum=\count372
@@ -1112,7 +1112,7 @@ File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
 (C:\Users\Bianca\AppData\Roaming\MiKTeX\tex/generic/chemfig\chemfig.tex
 (C:\Users\Bianca\AppData\Roaming\MiKTeX\tex/generic/simplekv\simplekv.tex
-Package: simplekv 2023/10/02 v0.2c Simple keyval package (CT)
+Package: simplekv 2025/06/15 v0.32 Simple keyval package (CT)
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.meta.code.t
 ex
@@ -1140,7 +1140,7 @@ File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
 Package: chemfig 2023/12/28 v1.66 Draw molecule with an easy syntax (CT)
 ) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2025/05/18 v2.17x AMS math features
+Package: amsmath 2025/06/16 v2.17y AMS math features
 \@mathmargin=\skip269
 
 For additional information on amsmath, use the `?' option.
@@ -1810,7 +1810,7 @@ bibitemlist
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (Template Latex - Relatorio Tecnico - IFSP - SBV.aux)
  ***********
-LaTeX2e <2025-06-01>
+LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `"Template Latex - Relatorio Tecnico - IFSP -
@@ -1818,10 +1818,10 @@ Package rerunfilecheck Info: File `"Template Latex - Relatorio Tecnico - IFSP -
 (rerunfilecheck)             Checksum: 37CDD76F5AAFB463366B330E2B594FFF;2612.
  ) 
 Here is how much of TeX's memory you used:
- 36338 strings out of 468225
- 654441 string characters out of 5443037
- 1109761 words of memory out of 5000000
- 63888 multiletter control sequences out of 15000+600000
+ 36346 strings out of 468219
+ 654665 string characters out of 5442933
+ 1111408 words of memory out of 5000000
+ 63902 multiletter control sequences out of 15000+600000
  704559 words of font info for 189 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  114i,20n,115p,1243b,734s stack positions out of 10000i,1000n,20000p,200000b,200000s
