@@ -1,23 +1,44 @@
 \chapter{Resultados Parciais}
 \label{cap:04}
 
-Foi desenvolvido um jogo do gênero \textit{farming} com elementos \textit{cozy}, como movimentação livre, progressão por coleta e também cultivo, junto de interações ambientais. Apesar de haver espaço para melhorias e novas funcionalidades, o jogo está operacional, com os principais sistemas implementados.
+Foi desenvolvido um jogo do gênero \textit{farming} com elementos \textit{cozy}, que inclui movimentação livre, progressão por coleta e cultivo, além de interações ambientais.O jogador controla um personagem em um ambiente natural e acolhedor, no qual pode interagir com o cenário em seu próprio ritmo. Embora haja espaço para primoramentos e novas funcionalidades, o jogo encontra-se operacional, com seus principais sistemas implementados. 
 
-As seções a seguir detalham os resultados que foram obtidos, focando na parte de desenvolvimento e na interface do jogador.
+As seções a seguir detalham os resultados que foram obtidos, com foco na parte de desenvolvimento e na interface do jogador.
 
 \section{Desenvolvimento}
 
-O projeto foi organizado em três pastas principais: a pasta \textit{assets}, contendo todos os recursos visuais do jogo, divididos nas subpastas \textit{game}, com \textit{sprites} e animações, e \textit{ui}, que reúne os elementos da interface. A pasta de \textit{scenes}, que reúne as cenas de cada componente do jogo, como a do personagem e a do mapa. E por fim, a pasta \textit{scripts}, que contém a lógica do jogo, separada em elementos globais e na máquina de estados do personagem principal. A Figura~\ref{fig:pastas} apresenta essas pastas.
+A organização do projeto foi estruturada de forma a manter uma separação clara entre os diferentes tipos de recursos utilizados no desenvolvimento. A pasta \textit{assets} concentra os materiais visuais do jogo, divididos entre \textit{game}, que reúne \textit{sprites} e animações, e \textit{ui}, destinada aos elementos de interface. Em seguida, a pasta \textit{resources} guarda os arquivos de \textit{save} e outros materiais utilizados na organização dos mapas.
+
+Na sequência, a pasta \textit{scenes} reúne as cenas responsáveis pela composição do jogo, incluindo o personagem, os componentes relacionados à física, as casas, os mapas e os objetos coletáveis, como árvores e rochas, além da pasta \textit{ui}, que contém elementos como a barra de ferramentas. A pasta \textit{scripts} abriga a lógica do jogo, organizada em \textit{scripts} globais e na máquina de estados do personagem principal. Por fim, a pasta \textit{tilesets} reúne os conjuntos de \textit{tiles} utilizados na construção dos cenários.A Figura~\ref{fig:pastas} apresenta essas pastas.
+
 
 \FloatBarrier 
+
 \begin{figure}[!htbp]
 	\centering
-	\caption{Pastas principais}
-	\includegraphics[width=0.3\linewidth]{imagens/Pastas.png}
+	\caption{Pastas do projeto}
+	\includegraphics[width=0.4\linewidth]{imagens/Pastas.png}
 	\\\textbf{Fonte:} Elaborada pelo autor
 	\label{fig:pastas}
 \end{figure}
 \FloatBarrier
+
+Além da organização dos arquivos, a estrutura do jogo também se reflete na cena principal do projeto. O nó \textit{Cat Village}, mostrado na Figura~\ref{fig:no_principal}, reúne os elementos essenciais que compõem o ambiente de jogo. Nele estão incluídos os objetos fixos da interface, como o inventário e \textit{timer} (\textit{GameScreen}), o personagem controlado pelo jogador (\textit{Player}), o mapa e a fazenda inicial, além dos grupos de animais representados pelos nós \textit{Chickens} e \textit{Cows}.
+
+\FloatBarrier 
+
+\begin{figure}[!htbp]
+	\centering
+	\caption{Nó principal}
+	\includegraphics[width=0.4\linewidth]{imagens/principal.png}
+	\\\textbf{Fonte:} Elaborada pelo autor
+	\label{fig:no_principal}
+\end{figure}
+\FloatBarrier
+
+A partir desse nó central, o jogo integra também os mapas de loja e construção e seus devidos marcadores (\textit{LojaPos},\textit{ConstruirPos} ), bem como os componentes relacionados ao cultivo, como \textit{CropFields} e \textit{CropsCursorComponent}. Além desses elementos, o nó concentra módulos de gerenciamento de dados e lógica global, entre eles \textit{SaveLevelDataComponent} e o ciclo de dia e noite (\textit{DayNightCycleComponent}), mantendo a estrutura do projeto organizada e garantindo o funcionamento integrado das diferentes mecânicas.
+
+
 
 \subsection{Assets}
 
@@ -28,12 +49,13 @@ A maioria dos \textit{assets} utilizados neste projeto foi obtida por meio do si
 	\centering
 	\caption{\textit{Assets} do personagem principal}
 	\includegraphics[width=0.4\linewidth]{imagens/assets.png}
-	\\\textbf{Fonte:}\url{https://cupnooble.itch.io/sprout-lands-asset-pack}
+	\\\textbf{Fonte:}\cite{ImagemAssetsPersonagem}
 	\label{fig:assets}
 \end{figure}
 \FloatBarrier
 
-A partir destes \textit{assets}, foram elaborados as animações de andar do personagem principal, utilizando sequências de \textit{frames} que representam o movimento contínuo. Além disso, também foram selecionados os \textit{assets} utilizados na construção do mapa, incluindo elementos de cenário, o fundo e objetos interativos. Tais \textit{assets} são apresentados na Figura~\ref{fig:elementos}.
+A partir destes \textit{assets}, foram elaborados as animações de locomoção e ações dos personagens, utilizando sequências de \textit{frames} que permitem representar o movimento de forma fluida. Além disso, foram selecionados os \textit{assets} utilizados para a construção do mapa, incluindo o fundo, objetos interativos e componentes estruturais do cenário. Tais \textit{assets} são apresentados na Figura~\ref{fig:elementos}.
+
 
 \FloatBarrier 
 \begin{figure}[!htbp]
@@ -46,7 +68,7 @@ A partir destes \textit{assets}, foram elaborados as animações de andar do per
 \FloatBarrier
 
 
-Além disso, caixas de colisão foram aplicadas a esses elementos para garantir que os personagens não atravessem objetos sólidos do cenário, respeitando os limites definidos e mantendo a coerência da movimentação no ambiente do jogo. A partir disto, foi possível criar um \textit{TileMap}, que utiliza destes objetos e de outras texturas para compor, de forma modular, o cenário principal do jogo, que é apresentado na Figura~\ref{fig:cena}.
+Com os elementos visuais definidos, caixas de colisão foram aplicadas nos objetos do cenário, garantindo que o personagem respeite os limites físicos e não atravesse estruturas sólidas. Esse processo assegura a coerência da movimentação no espaço do jogo. A partir disto, foi possível criar um \textit{TileMap}, que utiliza esses objetos, de forma modular, para compor o cenário principal do jogo, que é apresentado na Figura~\ref{fig:cena}.
 
 \FloatBarrier 
 \begin{figure}[!htbp]
@@ -58,23 +80,64 @@ Além disso, caixas de colisão foram aplicadas a esses elementos para garantir 
 \end{figure}
 \FloatBarrier
 
-Na Figura~\ref{fig:cena}, também é possível observar caixas de colisão nas cores rosa e verde. As caixas rosas representam áreas de interação do player, posicionadas em árvores e pedras para permitir a coleta de recursos pelo jogador. Já a caixa verde, localizada na porta, corresponde a um bloco de ativação de animação, responsável por acionar a abertura e o fechamento da mesma.
+Na Figura~\ref{fig:cena}, observam-se diferentes tipos de áreas e caixas de colisão nas cores rosa e verde. As caixas rosas representam áreas de interação do jogador, posicionadas sobre árvores e rochas para permitir a coleta destes recursos. As caixas verdes correspondem a blocos de ativação de animação, como o da porta, responsável por acionar a animação de abertura e fechamento. Além disso, as áreas destacadas em azul delimitam o espaço de locomoção dos animais, definindo seus limites de movimento dentro do cenário.
+
+Por fim, a Figura~\ref{fig:mapa_completo} apresenta o cenário principal de forma integral, reunindo todos os elementos já integrados ao ambiente.
+
+\FloatBarrier 
+\begin{figure}[!htbp]
+	\centering
+	\caption{Mapa Completo}
+	\includegraphics[width=0.8\linewidth]{imagens/mapa.png}
+	\\\textbf{Fonte:} Elaborada pelo autor
+	\label{fig:mapa_completo}
+\end{figure}
+\FloatBarrier 
+
+O cenário foi organizado em quatro partes, pelas quais o personagem principal pode se deslocar livremente. A transição entre essas partes é controlada por blocos de animação e por marcadores que definem os pontos exatos em que o personagem deve aparecer ao mudar de área, garantindo uma movimentação fluida.
+
+
+\subsection{Arquitetura do Personagem e Mecânicas Implementadas}
+
+A cena do personagem foi estruturada para organizar de forma clara suas funções essenciais, conforme apresentado na Figura~\ref{fig:player}. O nó \textit{AnimatedSprite2D} gerencia as animações do personagem, enquanto o \textit{CollisionShape2D} define sua área de colisão no ambiente.
+
+\FloatBarrier 
+\begin{figure}[!htbp]
+	\centering
+	\caption{Nó do Personagem principal}
+	\includegraphics[width=0.4\linewidth]{imagens/player.png}
+	\\\textbf{Fonte:} Elaborada pelo autor
+	\label{fig:player}
+\end{figure}
+\FloatBarrier 
+
+O comportamento do personagem é controlado pela \textit{StateMachine}, composta pelos estados \textit{Idle}, \textit{Walk}, \textit{Chopping}, \textit{Tilling} e \textit{Watering}. Cada estado corresponde a uma ação específica e é ativado conforme o \textit{input} do jogador ou a interação com o cenário, garantindo transições organizadas e evitando conflitos entre ações.
+
+Os nós \textit{Camera2D} e \textit{HitComponent} complementam a estrutura: o primeiro acompanha o personagem durante a movimentação, e o segundo detecta objetos interativos, permitindo ações como coleta e uso de ferramentas. Essa organização modular facilita a manutenção e a expansão futura das mecânicas do jogo.
+
 
 \subsection{Game Design Document}
 
-O desenvolvimento do jogo foi orientado por um Game Design Document (GDD), que reuniu as principais informações sobre mecânicas, regras, narrativa, personagens e estilo visual. Esse documento serviu como base para as decisões de projeto, garantindo organização e consistência durante todo o processo.
+O desenvolvimento do jogo foi orientado por um \textit{Game Design Document} (GDD), que reuniu as principais informações referentes às mecânicas, regras, narrativa, personagens e estilo visual. Esse documento funcionou como base durante o processo de criação do projeto, garantindo organização e consistência ao longo do desenvolvimento. Nele foram estruturados o resumo do jogo, bem como sua história e ambientação, apresentadas a seguir.
 
-A Figura~\ref{fig:gdd} apresenta um trecho do GDD criado para este projeto.
 
-\FloatBarrier
+\subsubsection{Resumo do Jogo}
+
+Cat’s Village é um cozy game 2D ambientado em um vilarejo fictício. O jogador assume o papel de um gato que decide iniciar uma nova vida ao assumir uma fazenda esquecida nos arredores da vila onde sempre viveu. Nesse ambiente acolhedor, o protagonista poderá cultivar plantações, cuidar de animais, explorar a natureza ao redor e criar laços com os habitantes locais. O jogo busca oferecer uma experiência relaxante, na qual o progresso é guiado pelo próprio ritmo do jogador. Não há um objetivo final rígido, priorizando a liberdade para escolher como jogar.
+
+\subsubsection{História e Ambientação}
+
+A narrativa se desenvolve em uma pequena vila cercada por florestas exuberantes, rios tranquilos e campos férteis. O local é habitado por personagens únicos e amigáveis, cada um com sua rotina e histórias particulares. Com o passar do tempo, o jogador poderá descobrir eventos especiais e explorar mistérios ocultos nas áreas ao redor da floresta. A ambientação funciona como uma metáfora para o reencontro com a natureza e com a simplicidade da vida longe dos grandes centros urbanos.
+
+\FloatBarrier 
 \begin{figure}[!htbp]
 	\centering
-	\caption{Trecho do Game Design Document (GDD)}
-	\includegraphics[width=0.7\linewidth]{imagens/gdd.png}
+	\caption{Tela principal}
+	\includegraphics[width=0.8\linewidth]{imagens/tela.png}
 	\\\textbf{Fonte:} Elaborada pelo autor
-	\label{fig:gdd}
+	\label{fig:tela}
 \end{figure}
-\FloatBarrier
+\FloatBarrier 
 
 \section{Repositório do Github}
 

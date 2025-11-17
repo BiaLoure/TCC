@@ -7,7 +7,7 @@
 \contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Introdução}}{8}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Objetivos}{8}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Objetivo Geral}{8}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}Objetivos Específicos}{8}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.2}Objetivos Específicos}{9}{subsection.1.1.2}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Considerações Gerais}}{10}{chapter.2}%
 \contentsline {section}{\numberline {2.1}O que é um jogo?}{10}{section.2.1}%
@@ -37,16 +37,19 @@
 \contentsline {section}{\numberline {3.3}Elaboração do Game Design Document (GDD)}{23}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Obtenção e desenvolvimento dos assets do jogo}{23}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Desenvolvimento do código-base do jogo}{23}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Testar o jogo}{23}{section.3.6}%
+\contentsline {section}{\numberline {3.6}Testar o jogo}{24}{section.3.6}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Resultados Parciais}}{24}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Desenvolvimento}{24}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Assets}{25}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Game Design Document}{26}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}Repositório do Github}{27}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Cronograma do Trabalho}{27}{section.4.3}%
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Resultados Parciais}}{25}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Desenvolvimento}{25}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Assets}{27}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Arquitetura do Personagem e Mecânicas Implementadas}{30}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Game Design Document}{30}{subsection.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.3.1}Resumo do Jogo}{31}{subsubsection.4.1.3.1}%
+\contentsline {subsubsection}{\numberline {4.1.3.2}História e Ambientação}{31}{subsubsection.4.1.3.2}%
+\contentsline {section}{\numberline {4.2}Repositório do Github}{31}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Cronograma do Trabalho}{32}{section.4.3}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Conclusões Parciais}}{29}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Conclusões Parciais}}{34}{chapter.5}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{30}{section*.26}%
+\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{35}{section*.29}%
