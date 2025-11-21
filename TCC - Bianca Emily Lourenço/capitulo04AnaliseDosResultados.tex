@@ -115,6 +115,72 @@ O comportamento do personagem é controlado pela \textit{StateMachine}, composta
 
 Os nós \textit{Camera2D} e \textit{HitComponent} complementam a estrutura: o primeiro acompanha o personagem durante a movimentação, e o segundo detecta objetos interativos, permitindo ações como coleta e uso de ferramentas. Essa organização modular facilita a manutenção e a expansão futura das mecânicas do jogo.
 
+\subsubsection{Sistema de Cultivo}
+
+O sistema de cultivo foi desenvolvido para permitir que o jogador plante diferentes tipos de vegetais em áreas específicas do mapa. Para isso, a lógica identifica a célula selecionada e verifica se ela está dentro do alcance do personagem, assegurando que a interação ocorra apenas quando a posição for válida para o plantio.
+
+\FloatBarrier 
+\begin{figure}[!htbp]
+	\centering
+	\caption{Função de criação da área de cultivo}
+	\includegraphics[width=0.8\linewidth]{imagens/sistema_cultivo.png}
+	\\\textbf{Fonte:} Elaborado pelo autor
+	\label{fig:cultivo}
+\end{figure}
+\FloatBarrier 
+
+Após essa verificação inicial, a função determina a ferramenta ativa e instancia a cena da planta correspondente, posicionando-a diretamente no \textit{TileMap}. O novo objeto é então inserido no nó \textit{CropFields}, que reúne todos os elementos cultiváveis do jogo. Essa organização torna o sistema modular e permite que novas culturas sejam adicionadas futuramente sem alterações significativas na estrutura existente.
+
+\subsubsection{Ciclo de Dia e Noite}
+
+O ciclo de dia e noite foi implementado com o objetivo de alterar a iluminação do cenário ao longo do tempo, criando uma ambientação dinâmica. A mudança ocorre de forma gradual, de acordo com o valor de tempo fornecido pelo gerenciador do jogo, que converte minutos e horas em um parâmetro contínuo utilizado para determinar o estágio do ciclo.
+
+\FloatBarrier 
+\begin{figure}[!htbp]
+	\centering
+	\caption{Função do Ciclo de Dia e Noite}
+	\includegraphics[width=0.8\linewidth]{imagens/dia_e_noite.png}
+	\\\textbf{Fonte:} Elaborado pelo autor
+	\label{fig:diaenoite}
+\end{figure}
+\FloatBarrier 
+
+
+A lógica apresentada na Figura~\ref{fig:diaenoite} utiliza uma função senoidal para calcular um valor amostral que representa a posição do ciclo dentro de um gradiente de cores. Esse valor é aplicado ao nó \textit{CanvasModulate}, que ajusta a cor global da tela conforme o horário do jogo. A abordagem adotada permite transições suaves entre dia, tarde e noite, mantendo a iluminação coerente e reforçando a ambientação proposta.
+
+\subsubsection{Sistema de Interação com Objetos}
+
+O sistema de interação com objetos foi estruturado a partir de dois componentes distintos, responsáveis por detectar ações do jogador e validar se a ferramenta utilizada é adequada para o objeto atingido. Esses componentes,\textit{HitComponent} e \textit{HurtComponent}, foram implementados como nós do tipo \textit{Area2D}, permitindo que a detecção ocorra por meio da sobreposição entre áreas de colisão.
+
+\FloatBarrier
+\begin{figure}[!htbp]
+	\centering
+	\caption{Componentes responsáveis pela detecção e validação de interações}
+	\includegraphics[width=0.8\linewidth]{imagens/hit.png}
+	\\\textbf{Fonte:} Elaborado pelo autor
+	\label{fig:hitHurt}
+\end{figure}
+\FloatBarrier
+
+O \textit{HitComponent}, associado ao jogador, armazena a ferramenta atualmente equipada e a quantidade de dano que ela aplica. Já o \textit{HurtComponent}, presente em objetos interativos como árvores e rochas, verifica se a ferramenta utilizada corresponde ao tipo esperado. Quando um \textit{HitComponent} entra em contato com um \textit{HurtComponent}, este compara os valores recebidos e, se houver compatibilidade, emite o sinal responsável pela redução de resistência ou pela ativação da ação adequada.
+
+Essa separação entre impacto e validação torna o sistema mais simples de manter. Como cada componente atua de forma independente, novos objetos interativos ou ferramentas podem ser adicionados sem a necessidade de alterar a estrutura central do sistema.
+
+\subsubsection{Sistema de Inventário}
+
+O sistema de inventário foi desenvolvido de forma a manter a lógica de armazenamento separada da interface gráfica. Sua estrutura central está concentrada no nó \textit{InventoryManager}, responsável por registrar todos os itens coletados durante a jogabilidade. A Figura~\ref{fig:inventario} apresenta o método utilizado para adicionar recursos ao inventário.
+
+\FloatBarrier
+\begin{figure}[!htbp]
+	\centering
+	\caption{Código do sistema de inventário}
+	\includegraphics[width=0.7\linewidth]{imagens/inventario.png}
+	\\\textbf{Fonte:} Elaborado pelo autor
+	\label{fig:inventario}
+\end{figure}
+\FloatBarrier
+
+Nesse método, o item coletado é registrado dinamicamente no dicionário que representa o inventário, permitindo que novas categorias sejam inseridas sem necessidade de ajustes estruturais. A cada modificação, o sinal \textit{inventory\_changed} é emitido, permitindo que a interface reflita o conteúdo atual do inventário sem necessidade de intervenções adicionais.
 
 \subsection{Game Design Document}
 
@@ -144,6 +210,10 @@ A narrativa se desenvolve em uma pequena vila cercada por florestas exuberantes,
 O código base do jogo e o GDD (Game Design Document) do jogo estão disponíveis no link do \textit{ Github}:
 
 \url{https://github.com/BiaLoure/Jogo}	
+
+E o vídeo demonstrando o jogo em execução pode ser encontrado em:
+
+\url{https://youtu.be/-vQWv5pS6IU}	
 
 
 %\section{Cronograma do Trabalho}
