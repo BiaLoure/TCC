@@ -117,47 +117,46 @@ Os nós \textit{Camera2D} e \textit{HitComponent} complementam a estrutura: o pr
 
 \subsubsection{Sistema de Cultivo}
 
-O sistema de cultivo foi desenvolvido para permitir que o jogador plante diferentes tipos de vegetais em áreas específicas do mapa. Para isso, a lógica identifica a célula selecionada e verifica se ela está dentro do alcance do personagem, assegurando que a interação ocorra apenas quando a posição for válida para o plantio.
+O sistema de cultivo, ilustrado na Figura~\ref{fig:cultivo}, foi desenvolvido para permitir que o jogador plante diferentes tipos de vegetais em áreas específicas do mapa. Para isso, a lógica identifica a célula selecionada e verifica se ela está dentro do alcance do personagem, assegurando que a interação ocorra apenas quando a posição for válida para o plantio.
 
-\FloatBarrier 
+\FloatBarrier
 \begin{figure}[!htbp]
 	\centering
 	\caption{Função de criação da área de cultivo}
 	\includegraphics[width=0.8\linewidth]{imagens/sistema_cultivo.png}
-	\\\textbf{Fonte:} Elaborado pelo autor
+	\\textbf{Fonte:} Elaborado pelo autor
 	\label{fig:cultivo}
 \end{figure}
-\FloatBarrier 
+\FloatBarrier
 
 Após essa verificação inicial, a função determina a ferramenta ativa e instancia a cena da planta correspondente, posicionando-a diretamente no \textit{TileMap}. O novo objeto é então inserido no nó \textit{CropFields}, que reúne todos os elementos cultiváveis do jogo. Essa organização torna o sistema modular e permite que novas culturas sejam adicionadas futuramente sem alterações significativas na estrutura existente.
 
 \subsubsection{Ciclo de Dia e Noite}
 
-O ciclo de dia e noite foi implementado com o objetivo de alterar a iluminação do cenário ao longo do tempo, criando uma ambientação dinâmica. A mudança ocorre de forma gradual, de acordo com o valor de tempo fornecido pelo gerenciador do jogo, que converte minutos e horas em um parâmetro contínuo utilizado para determinar o estágio do ciclo.
+O ciclo de dia e noite, representado na Figura~\ref{fig:diaenoite}, foi implementado com o objetivo de alterar a iluminação do cenário ao longo do tempo, criando uma ambientação dinâmica. A mudança ocorre de forma gradual, de acordo com o valor de tempo fornecido pelo gerenciador do jogo, que converte minutos e horas em um parâmetro contínuo utilizado para determinar o estágio do ciclo.
 
-\FloatBarrier 
+\FloatBarrier
 \begin{figure}[!htbp]
 	\centering
 	\caption{Função do Ciclo de Dia e Noite}
 	\includegraphics[width=0.8\linewidth]{imagens/dia_e_noite.png}
-	\\\textbf{Fonte:} Elaborado pelo autor
+	\\textbf{Fonte:} Elaborado pelo autor
 	\label{fig:diaenoite}
 \end{figure}
-\FloatBarrier 
+\FloatBarrier
 
-
-A lógica apresentada na Figura~\ref{fig:diaenoite} utiliza uma função senoidal para calcular um valor amostral que representa a posição do ciclo dentro de um gradiente de cores. Esse valor é aplicado ao nó \textit{CanvasModulate}, que ajusta a cor global da tela conforme o horário do jogo. A abordagem adotada permite transições suaves entre dia, tarde e noite, mantendo a iluminação coerente e reforçando a ambientação proposta.
+A lógica  utiliza uma função senoidal para calcular um valor amostral que representa a posição do ciclo dentro de um gradiente de cores. Esse valor é aplicado ao nó \textit{CanvasModulate}, que ajusta a cor global da tela conforme o horário do jogo. A abordagem adotada permite transições suaves entre dia, tarde e noite, mantendo a iluminação coerente e reforçando a ambientação proposta.
 
 \subsubsection{Sistema de Interação com Objetos}
 
-O sistema de interação com objetos foi estruturado a partir de dois componentes distintos, responsáveis por detectar ações do jogador e validar se a ferramenta utilizada é adequada para o objeto atingido. Esses componentes,\textit{HitComponent} e \textit{HurtComponent}, foram implementados como nós do tipo \textit{Area2D}, permitindo que a detecção ocorra por meio da sobreposição entre áreas de colisão.
+O sistema de interação com objetos, ilustrado na Figura~\ref{fig:hitHurt}, foi estruturado a partir de dois componentes distintos, responsáveis por detectar ações do jogador e validar se a ferramenta utilizada é adequada para o objeto atingido. Esses componentes, \textit{HitComponent} e \textit{HurtComponent}, foram implementados como nós do tipo \textit{Area2D}, permitindo que a detecção ocorra por meio da sobreposição entre áreas de colisão.
 
 \FloatBarrier
 \begin{figure}[!htbp]
 	\centering
 	\caption{Componentes responsáveis pela detecção e validação de interações}
 	\includegraphics[width=0.8\linewidth]{imagens/hit.png}
-	\\\textbf{Fonte:} Elaborado pelo autor
+	\\textbf{Fonte:} Elaborado pelo autor
 	\label{fig:hitHurt}
 \end{figure}
 \FloatBarrier
